@@ -1,14 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-  images: {
-    unoptimized: true,
-  },
-}
+  output: 'export',
+  basePath: '/Archives-HECM2',
+  assetPrefix: '/Archives-HECM2/',
+};
 
-export default nextConfig
+export default nextConfig;
